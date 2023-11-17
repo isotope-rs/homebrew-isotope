@@ -2,10 +2,10 @@ class Isotope < Formula
   desc "Isotope scans AWS services and makes suggestions on how to improve them using Artificial Intelligence."
   if Hardware::CPU.type == :arm
     url "https://github.com/isotope-rs/isotope/releases/download/0.1.0/isotope-aarch64-apple-darwin.tar.xz"
-    sha256 "d1bb73bf101441484a4f0920f617e0581f6baeafa2dd85c886f0b79cffcd3a5f"
+    sha256 "dda8b816dc20b14fe886ed60de1e5b7401c82ee7df9cd5f29960a49b4a7ee400"
   else
     url "https://github.com/isotope-rs/isotope/releases/download/0.1.0/isotope-x86_64-apple-darwin.tar.xz"
-    sha256 "47b61a3c3f3b4ea2ef09efaf7628787b557d7af6a490b526b3e1b7ea7dc65e66"
+    sha256 "d96b7cd9491fc9e7eda1a0ffd66ecc646ad7a84a0963d39bbcaeab9bba6e39a7"
   end
   version "0.1.0"
   license "MIT"
